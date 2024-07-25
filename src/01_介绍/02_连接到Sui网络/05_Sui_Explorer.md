@@ -1,8 +1,11 @@
 ## 在 Sui Explorer 上检查
 
-[Sui Explorer](https://suiexplorer.com/) 是 Sui 生态系统中的重要工具。它是一个综合平台，展示在 Sui 网络上生成的所有内容，如交易、账户、对象等。
+- [https://suivision](https://suivision.xyz/)
+- [suiscan](https://suiscan.xyz)
 
-探索 [Sui Devnet Explorer](https://suiexplorer.com/?network=devnet)，并搜索您在上一课中创建的账户（地址）。在页面上，导航到 `Owned Objects` 部分，查看上一课中请求的10个 SUI 代币。
+区块链浏览器 是 Sui 生态系统中的重要工具。它是一个综合平台，展示在 Sui 网络上生成的所有内容，如交易、账户、对象等。
+
+探索 [https://suivision](https://suivision.xyz/)  或者 [suiscan](https://suiscan.xyz) 并搜索您在上一课中创建的账户（地址）。在页面上，导航到 `Owned Objects` 部分，查看上一课中请求的10个 SUI 代币。
 
 ![owned-objects](../02_连接到Sui网络/images/2-6.png?raw=true)
 

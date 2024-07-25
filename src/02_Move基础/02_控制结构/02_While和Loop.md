@@ -1,4 +1,4 @@
-## While 和 Loop
+## while 和 loop
 
 在 Sui 的 Move 中，循环结构由 while 和 loop 结构提供。
 
@@ -8,8 +8,8 @@
 ```move
 #[test]
 fun while_test() {
-    let sum = 0;
-    let counter = 0;
+    let mut sum = 0;
+    let mut counter = 0;
     while (counter < 5) {
         counter = counter + 1;
         sum = sum + 1;
@@ -28,8 +28,8 @@ break 表达式将强制循环提前终止，而不等待条件表达式为假�
 ```move
 #[test]
 fun while_break_test() {
-    let sum = 0;
-    let counter = 0;
+    let mut sum = 0;
+    let mut counter = 0;
     while (counter < 5) {
         counter = counter + 1;
         sum = sum + 1;
@@ -47,8 +47,8 @@ continue 表达式跳过当前循环的其余部分，并直接开始下一次�
 ```move
 #[test]
 fun while_continue_test() {
-    let sum = 0;
-    let counter = 0;
+    let mut sum = 0;
+    let mut counter = 0;
     while (counter < 5) {
         counter = counter + 1;
         if (counter == 2) {
